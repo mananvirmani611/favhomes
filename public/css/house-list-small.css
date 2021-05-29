@@ -1,0 +1,118 @@
+.fixed-filter-div{
+  text-align: left;
+  height: 500px;
+  /* width: 20%; */
+  /* border-style: solid; */
+  /* border-width: 2px; */
+  /* position: fixed; */
+  /* margin-left: 5%; */
+  margin-top: 98px;
+
+}
+
+.filter-inner-div{
+  text-align: left;
+  padding-left: 10%;
+}
+.link-heading{
+  margin-top: 15%;
+}
+.right-div{
+  margin:auto;
+  margin-top:116px;
+
+  padding-left: 3%;
+  padding-top: 2%;
+  /* border-width: 1px; */
+  /* border-style: solid; */
+
+  /* text-align: center; */
+}
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.house-item{
+  margin: 2% auto;
+  /* background-color: #d8f9ff; */
+  padding: 4% 0;
+  text-align: left;
+  width: 90%;
+}
+.house-item:hover{
+  cursor: pointer;
+}
+.left-div{
+  /* padding: 2% 5% 5% 5%; */
+  padding-top:2%;
+}
+.city-name-heading{
+  margin-bottom: 4%;
+  margin-top: 2%;
+}
+@media screen and (max-width: 992) {
+  .body {
+    background-color: blue;
+
+  }
+  .fixed-filter-div{
+    position: static;
+    height: auto;
+    padding: 0;
+    /* margin: 0; */
+  }
+  .link-heading{
+    margin-top: 5%;
+  }
+  .right-div{
+      padding-top: 1%;
+      margin:auto;
+      margin-top: 15%;
+      width: 95%;
+      text-align: right;
+  }
+}
+
+.hrule{
+  border-width: 2px;
+  border-style: solid;
+  width: 100%;
+}
+.type-period{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.body{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+}
+.description{
+  font-weight: 500;
+}
+.main-list{
+    /* text-align: center; */
+}
+
+#main-list{
+  text-align: center;
+}
+.dropdown{
+  text-align: center;
+    padding: 2%;
+
+}
+.filter-text{
+  display: inline-block;
+  margin-right: 3%;
+}
+hr#main-hr{
+  border-top-style: dotted;
+  border-top-width: 5px;
+  border-top-color: black;
+  background-color: white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
